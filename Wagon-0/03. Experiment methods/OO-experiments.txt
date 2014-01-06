@@ -1,2 +1,17 @@
 // Copy some experiments you made on ruby String and Fixnum objects below !
 // You choose pick 3 methods for String and 3 methods for Fixnum
+irb(main):025:0> "leouagon".capitalize
+=> "Leouagon"
+irb(main):026:0> "leouagon".upcase
+=> "LEOUAGON"
+irb(main):027:0> "leouagon".center(20)
+=> "      leouagon      "
+
+irb(main):028:0> 3.size
+=> 8
+irb(main):029:0> 8.next
+=> 9
+irb(main):030:0> 8.to_s
+=> "8"
+irb(main):031:0> 
+
