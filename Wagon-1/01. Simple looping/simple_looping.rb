@@ -1,9 +1,23 @@
 # The objective is to create a function that computes the sum of the integers from a min value to a max value
 
-def sum(min,max)
-  # your code here
+def sum2(min,max)
+	res = 0
+	n = min
+  while n <= max
+  	res += n
+  	n += 1
+
+  end
+  	res
 end
 
+def sum(min,max)
+	res = 0
+	for n in min..max
+		res += n 
+	end
+	res
+end 
 # Testing your code
 
 min = 1
