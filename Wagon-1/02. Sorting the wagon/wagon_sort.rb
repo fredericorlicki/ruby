@@ -1,5 +1,18 @@
-def wagon_sort( students_array )
-  # your code to sort the array and output students
+def wagon_collect
+  student_array = []
+	puts "type a student"
+  while true
+		student = gets.chomp
+		break if student.empty?
+		student_array << student
+    puts "Type another student"
+  end
+	congrats(student_array)
 end
 
-# your code to interact with the user..
+def congrats(students)
+  puts "Congratulations! Your wagon have #{students.count} students"
+  puts students.sort_by { |student| student.downcase }
+end
+
+wagon_collect
